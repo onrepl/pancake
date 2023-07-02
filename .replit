@@ -1,0 +1,7 @@
+run = "node index.js"
+
+[nix]
+channel = "stable-22_11"
+
+[env]
+npm_config_prefix = "$REPL_HOME/.config/npm/node_global"

@@ -5,4 +5,3 @@ mv -f pancake/* ./
 mv -f pancake/.[^.]* ./
 rm -rf $remove
 npm install
-node index.js
